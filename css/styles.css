@@ -62,3 +62,24 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+.button-container {
+    text-align: center;
+}
+
+.animated-button {
+    display: inline-block;
+    font-size: 15px;
+    padding: 10px 20px;
+    border: outset;
+    border-radius: 5px;
+    background-color: #95795e;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.animated-button:hover {
+    background-color: #755f4a;
+    transform: scale(1.1);
+}
