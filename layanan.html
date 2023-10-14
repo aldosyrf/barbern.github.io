@@ -8,32 +8,88 @@
 </head>
 <body>
     <header>
+        <link rel="stylesheet" href="css/layanan.css">
         <h1>Layanan Kami</h1>
         <nav>
             <ul>
-                <li><a href="index.html">Beranda</a></li>
-                <li><a href="layanan.html">Layanan</a></li>
-                <li><a href="#">Galeri</a></li>
-                <li><a href="team.html">Our Teams</a></li>
+                <div class="button-container">
+                    <li><a href="index.html" button class="animated-button">Beranda</a></li>
+                    <li><a href="layanan.html" button class="animated-button">Layanan</a></li> <!-- Tambahkan tautan ke Layanan.html -->
+                    <li><a href="#" button class="animated-button">Galeri</a></li>
+                    <li><a href="team.html" button class="animated-button">Our Teams</a></li>
+                </div>
             </ul>
         </nav>
     </header>
 
     <!-- Isi konten halaman layanan di sini -->
-    <h2>Our Services</h2>
-    <p>We offer a range of services to make you look your best.</p>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta tags, title, and CSS link -->
+</head>
+<body>
+    <header>
+        <!-- Header content -->
+    </header>
 
-    <h3>Buka Pukul</h3>
-    <p>Senin - Jumat: 10:00 AM - 8:00 PM<br>
-       Sabtu: 9:00 AM - 6:00 PM<br>
-       Minggu: Tutup</p>
+    <!-- Kontainer utama untuk kotak-kotak -->
+    <div class="container">
+        <!-- Kotak pertama (service-section) -->
+        <div class="service-box">
+            <div class="service-section">
+                <h2>Our Services</h2>
+                <p>We offer a range of services to make you look your best.</p>
+            </div>
+        </div>
 
-    <h3>Pesan Pemotong Rambut</h3>
-    <p>Anda dapat memesan pemotong rambut sesuai jam yang Anda inginkan. Silakan hubungi kami untuk membuat janji dan pastikan Anda mendapatkan pelayanan yang sesuai dengan kebutuhan Anda.</p>
+        <!-- Kotak kedua (opening-hours) -->
+        <div class="opening-box">
+            <div class="opening-hours">
+                <h3>Buka Pukul</h3>
+                <p>Senin - Jumat: 10:00 AM - 8:00 PM<br>
+                   Sabtu: 9:00 AM - 6:00 PM<br>
+                   Minggu: Tutup</p>
+            </div>
+        </div>
 
-    <!-- Contoh tombol yang dapat Anda tambahkan -->
-    <button onclick="showDetails()">Learn More</button>
+        <!-- Kotak ketiga (haircut-booking) -->
+        <div class="haircut-box">
+            <div class="haircut-booking">
+                <h3>Pesan Pemotong Rambut</h3>
+                <p>Anda dapat memesan pemotong rambut sesuai jam yang Anda inginkan. Silakan hubungi kami untuk membuat janji dan pastikan Anda mendapatkan pelayanan yang sesuai dengan kebutuhan Anda.</p>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <!-- Footer content -->
+    </footer>
 
+    <script>
+        // JavaScript code
+    </script>
+
+    <style>
+      /* CSS untuk meratakan tengah elemen dengan class service-section, opening-hours, dan haircut-booking */
+      .container {
+        display: flex;
+        justify-content: space-between;
+        max-width: 1200px; /* Atur lebar maksimum sesuai kebutuhan Anda */
+        margin: 0 auto;
+      }
+
+      .service-box, .opening-box, .haircut-box {
+        flex: 1;
+        padding: 20px;
+        background-color: #fff;
+        text-align: center;
+      }
+    </style>
+</body>
+</html>
+
+    
     <footer>
         <p>&copy; 2023 Barber Shop. All rights reserved.</p>
     </footer>
@@ -50,5 +106,8 @@
             window.location.href = newPageURL;
         }
     </script>
+
+
+    
 </body>
 </html>

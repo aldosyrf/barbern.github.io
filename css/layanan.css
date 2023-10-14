@@ -1,71 +1,114 @@
-/* Resetting some default styles */
-body, h1, h2, h3, p, ul, li {
+/* Reset CSS */
+body, h1, h2, h3, p {
     margin: 0;
     padding: 0;
-}
-
-body {
+  }
+  
+  body {
     font-family: Arial, sans-serif;
-    background-color: #f3f3f3;
-}
-
-header {
+    background-color: #f5f5f5;
+  }
+  
+  header {
     background-color: #333;
     color: #fff;
     padding: 20px;
     text-align: center;
-}
-
-h1 {
-    font-size: 36px;
-}
-
-nav ul {
+  }
+  
+  nav ul {
     list-style: none;
-}
-
-nav ul li {
+  }
+  
+  nav ul li {
     display: inline;
-    margin-right: 20px;
-}
-
-nav ul li a {
+    margin-right: 10px;
+  }
+  
+  nav a {
     text-decoration: none;
     color: #fff;
-}
-
-h2 {
-    font-size: 24px;
-    margin: 20px;
-}
-
-p {
-    font-size: 16px;
-    margin: 10px;
-}
-
-h3 {
-    font-size: 20px;
-    margin: 20px;
-}
-
-footer {
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Give full left and right margin to .service-section */
+  .service-section {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0; /* Top and bottom margin */
+    margin-left: auto; /* Margin right to full width */
+    margin-right: auto; /* Margin left to full width */
+    text-align: center;
+    max-width: 600px;
+  }
+  
+  /* Give full left and right margin to .opening-hours */
+  .opening-hours {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0; /* Top and bottom margin */
+    margin-left: auto; /* Margin right to full width */
+    margin-right: auto; /* Margin left to full width */
+    text-align: center;
+    max-width: 600px;
+  }
+  
+  /* Give full left and right margin to .haircut-booking */
+  .haircut-booking {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px 0; /* Top and bottom margin */
+    margin-left: auto; /* Margin right to full width */
+    margin-right: auto; /* Margin left to full width */
+    text-align: center;
+    max-width: 600px;
+  }
+  
+  footer {
     background-color: #333;
     color: #fff;
+    text-align: center;
     padding: 10px;
+  }
+  
+  /* Style for links */
+  a {
+    text-decoration: none;
+    color: #0077FF;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .container {
+      padding: 10px;
+    }
+  }
+
+  .button-container {
     text-align: center;
 }
 
-button {
-    background-color: #fa0b0b;
-    color: #fff;
+.animated-button {
+    display: inline-block;
+    font-size: 15px;
     padding: 10px 20px;
-    border: none;
+    border: outset;
+    border-radius: 5px;
+    background-color: #95795e;
+    color: white;
     cursor: pointer;
-    font-size: 16px;
-    margin: 20px;
+    transition: all 0.3s ease;
 }
 
-button:hover {
-    background-color: #555;
+.animated-button:hover {
+    background-color: #755f4a;
+    transform: scale(1.1);
 }
+  
+  /* Add more CSS styles as needed for your specific design */
+  
